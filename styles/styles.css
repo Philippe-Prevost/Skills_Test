@@ -381,6 +381,12 @@ h4, h3, h2, p {
 }
 
 @media screen and (max-width: 767px) {
+  .section_2 {
+    width: 100%;
+  }
+  .topnav {
+    width: 100%;
+  }
   html {
     font-size: 14px;
   }

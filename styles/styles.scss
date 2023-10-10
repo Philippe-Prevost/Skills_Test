@@ -287,31 +287,37 @@ h4, h3, h2, p{
 }
 
 @media screen and (max-width: 767px) {
-html {
+.section_2{
+    width: 100%;
+}
+.topnav{
+    width: 100%;
+}
+html{
     font-size: 14px;
 }
 
-.First_section {
+.First_section{
     font-size: 1.2rem;
 }
 
-.topnav input[type="text"] {
+.topnav input[type="text"]{
     width: 100%;
 }
 
-.search-container {
+.search-container{
     width: 100%;
     flex-direction: column;
 }
 
-.topnav .search-container button {
+.topnav .search-container button{
     width: 100%;
 
 }
-.section_1_button {
+.section_1_button{
     width: 100%; 
 }
-.img_container1 {
+.img_container1{
     transform: none;
 }
 .section_5 img{
@@ -324,7 +330,7 @@ html {
     .button_blackbox{
     width: 80%;
 }
-.right_side_img img {
+.right_side_img img{
     width: 100%; 
 }
 }
