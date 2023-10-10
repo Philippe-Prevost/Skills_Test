@@ -1,11 +1,12 @@
 html {
-  font-size: 16px; /* Set the root font size */
+  font-size: 16px;
 }
 
 body {
-  font-size: 1rem; /* This will be equal to 16px */
+  font-size: 1rem;
   color: white;
   font-family: "Josefin Sans", sans-serif;
+  max-width: 100%;
 }
 
 .First_section {
@@ -32,7 +33,6 @@ body {
   font-weight: 700;
   line-height: 26px; /* 54.167% */
   letter-spacing: 4.8px;
-  text-transform: uppercase;
   font-size: 2vh;
   background-size: cover;
 }
@@ -51,10 +51,14 @@ body {
   text-decoration: none;
   text-align: center;
   border: none;
-  width: 45rem;
+  width: 25rem;
 }
 
 .search-container {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,8 +350,79 @@ footer {
 .social_media i {
   color: white;
   margin-left: 10px;
+  font-size: 15px;
 }
 
 .footer a[href=lkdin] {
   color: #5474FD;
+}
+
+footer h4 {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 3.36px;
+}
+
+h4, h3, h2, p {
+  font-weight: 400;
+}
+
+.search-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+  .First_section {
+    font-size: 1.2rem;
+  }
+  .topnav input[type=text] {
+    width: 100%;
+  }
+  .search-container {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .topnav .search-container button {
+    width: 100%;
+  }
+  .section_1_button {
+    width: 100%;
+  }
+  .img_container1 {
+    -webkit-transform: none;
+            transform: none;
+  }
+  .section_5 img {
+    width: 15rem;
+  }
+  .nav_hyperlinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .button_blackbox {
+    width: 80%;
+  }
+  .right_side_img img {
+    width: 100%;
+  }
 }
