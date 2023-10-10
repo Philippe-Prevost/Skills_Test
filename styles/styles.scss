@@ -10,6 +10,7 @@ html {
   body {
     font-size: 1rem; /* This will be equal to 16px */
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
 .First_section{
@@ -29,7 +30,7 @@ html {
     letter-spacing: 4.8px;
     text-transform: uppercase;
     font-size: 2vh;
-
+    background-size: cover;
 }
 .text_under-title{
     font-style: normal;
@@ -44,6 +45,8 @@ html {
     width: auto;
     text-decoration: none;
     text-align: center;
+    border: none;
+    width: 45rem;
   }
   .search-container{
     display: flex;
@@ -72,13 +75,13 @@ text-transform: uppercase;
 margin-right: 10px;
 margin-left: 10px;
  }
-  
+  .topnav{
+    margin-top: 20px;
+  }
   .topnav .search-container button:hover {
     background: darkblue;
   }  
-.topnav input[type=text] {
-    border: none;
-    }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -105,10 +108,32 @@ background-image: url(/Images/Background_castle.png);
 height: 87vh;
 justify-content: center;
 align-items: center;
+background-size: cover;
 }
-.left_side_txt{
-    text-align: center;
+h2{
+    font-family: 'Aleo', serif;
 }
+.left_side_txt > p{
+    text-align:left;
+    width: 70%;
+    font-weight: 400;
+    line-height: 26px;
+}
+.section_1_button{
+    background-color: #5474FD;
+    border: none;
+    color: white;
+    height: 3rem;
+    width: 12rem;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.img_container1{
+    transform: translateX(-25%);
+    margin-bottom: 10px;
+}
+
 .block{
     width: 25%;
 }
@@ -120,7 +145,8 @@ align-items: center;
     align-items: center;
     background-image: url(/Images/line.svg);
     background-repeat: no-repeat;
-    background-position: 49.3% 12%;
+    background-position: 49.3% 18%;
+    background-size: 48%;
 }
 
 .section_2 p{
@@ -140,6 +166,7 @@ align-items: center;
     height: 86vh;
     margin-top: -1.5%;
     position: relative;
+    background-size: cover;
 }
 .black-box_content{
     background-color: #333;
@@ -151,15 +178,15 @@ align-items: center;
     left: 20%;
 }
 
-.black-box_content h4, h3, p{
+.black-box_content h4, h3, p, h2{
     width: 85%;
 }
-.black-box_content h4, h3, p, button{
+.black-box_content h4, h3, button, p, h2{
     position: relative;
     left: 8%;
     font-family: 'Josefin Sans', sans-serif;
 }
-.black-box_content2 h4, h3, p, button{
+.black-box_content2 h4, h3, button, p, h2{
     position: relative;
     left: 8%;
     font-family: 'Josefin Sans', sans-serif;
@@ -170,13 +197,15 @@ align-items: center;
     width: 40%;
     color: white;
     margin-top: 5%;
-    font-family: 'Aleo', serif;
+    text-decoration: none;
+    border: none;
 }
 
 .section_4{
     background-image: url(/Images/Cliffs_Sea.png);
     height: 86vh;
     position: relative;
+    background-size: cover;
 }
 .black-box_content2{
     background-color: #333;
@@ -194,6 +223,7 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
 }
 .last_box{
     display: flex;
@@ -204,7 +234,10 @@ align-items: center;
     margin-bottom: 10%;
     
 }
-.section_6{
-    background-color: black;
-    height: 20vh;
+.First_section p{
+    position: inherit;
+    left: auto;
+}
+.search-container button{
+    position: inherit;
 }
