@@ -128,7 +128,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   background-image: url(/Images/Background_castle.png);
-  height: 100vh;
+  height: 87vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -146,7 +146,7 @@ nav {
 }
 
 .section_2 {
-  height: 20vh;
+  height: 30vh;
   background-color: #333;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -159,8 +159,11 @@ nav {
           align-items: center;
   background-image: url(/Images/line.svg);
   background-repeat: no-repeat;
-  background-position: 49.3% 0%;
-  background-size: 40%;
+  background-position: 49.3% 12%;
+}
+
+.section_2 p {
+  width: 100%;
 }
 
 .section_2 div, i {
@@ -183,6 +186,7 @@ nav {
   background-image: url(/Images/Modern_House.png);
   height: 86vh;
   margin-top: -1.5%;
+  position: relative;
 }
 
 .black-box_content {
@@ -190,17 +194,83 @@ nav {
   width: 35%;
   height: 50%;
   opacity: 0.9;
-  margin-left: 20%;
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+}
+
+.black-box_content h4, h3, p {
+  width: 85%;
+}
+
+.black-box_content h4, h3, p, button {
+  position: relative;
+  left: 8%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.black-box_content2 h4, h3, p, button {
+  position: relative;
+  left: 8%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.button_blackbox {
+  background-color: #5474FD;
+  height: 15%;
+  width: 40%;
+  color: white;
+  margin-top: 5%;
+  font-family: "Aleo", serif;
 }
 
 .section_4 {
   background-image: url(/Images/Cliffs_Sea.png);
   height: 86vh;
+  position: relative;
+}
+
+.black-box_content2 {
+  background-color: #333;
+  width: 35%;
+  height: 50%;
+  opacity: 0.9;
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
 }
 
 .section_5 {
   background-image: url(/Images/Background_person.png);
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.last_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  background-color: #333;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10%;
 }
 
 .section_6 {
