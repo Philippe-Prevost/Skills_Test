@@ -241,3 +241,29 @@ h2{
 .search-container button{
     position: inherit;
 }
+.footer_txt{
+    position: inherit;
+    left: auto;
+    width: auto;
+}
+footer{
+    height: 25vh;
+    background-color: #232323;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_5 h2{
+    position: inherit;
+    left: auto;
+    width: auto;
+}
+.social_media i{
+    color: white;
+    margin-left: 10px;
+}
+.footer a[href="lkdin"] {
+    color: #5474FD;
+}
+

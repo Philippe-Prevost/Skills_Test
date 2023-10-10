@@ -314,3 +314,40 @@ h2 {
 .search-container button {
   position: inherit;
 }
+
+.footer_txt {
+  position: inherit;
+  left: auto;
+  width: auto;
+}
+
+footer {
+  height: 25vh;
+  background-color: #232323;
+  margin-top: -22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section_5 h2 {
+  position: inherit;
+  left: auto;
+  width: auto;
+}
+
+.social_media i {
+  color: white;
+  margin-left: 10px;
+}
+
+.footer a[href=lkdin] {
+  color: #5474FD;
+}
