@@ -1,3 +1,12 @@
+html {
+  font-size: 16px; /* Set the root font size */
+}
+
+body {
+  font-size: 1rem; /* This will be equal to 16px */
+  color: white;
+}
+
 .First_section {
   background-image: url("/Images/Landscape_blue.png");
   display: -webkit-box;
@@ -36,8 +45,7 @@
 }
 
 .topnav input[type=text] {
-  padding: 6px;
-  width: 30rem;
+  width: auto;
   text-decoration: none;
   text-align: center;
 }
@@ -113,4 +121,26 @@ nav {
 
 .nav_hyperlinks a:hover {
   color: darkblue;
+}
+
+.section_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(/Images/Background_castle.png);
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left_side_txt {
+  text-align: center;
+}
+
+.block {
+  width: 25%;
 }

@@ -3,6 +3,15 @@
 // font-family: 'Aleo', serif;
 // font-family: 'Josefin Sans', sans-serif;
 
+html {
+    font-size: 16px; /* Set the root font size */
+  }
+  
+  body {
+    font-size: 1rem; /* This will be equal to 16px */
+    color: white;
+  }
+  
 .First_section{
     background-image: url("/Images/Landscape_blue.png");
     display: flex;
@@ -32,8 +41,7 @@
 }
 
   .topnav input[type=text] {
-    padding: 6px;
-    width: 30rem;
+    width: auto;
     text-decoration: none;
     text-align: center;
   }
@@ -91,4 +99,17 @@ text-transform: uppercase;
 }
 .nav_hyperlinks a:hover{
     color: darkblue;
+}
+.section_1{
+display: flex;
+background-image: url(/Images/Background_castle.png);
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+.left_side_txt{
+    text-align: center;
+}
+.block{
+    width: 25%;
 }
